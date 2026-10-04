@@ -462,11 +462,11 @@ def conectar_cisco():
     print("\n=== Conexão com Cisco ===")
     # incirido 
     print("FIREWALL")
-    print("IBM_HOR_DC_FW_INT_01 10.109.3.228,       IBM_HOR_DC_FW_INT_02 10.109.3.244") 
-    print("IBM_HOR_DC_FW_FL_01 10.109.3.226,        IBM_HOR_DC_FW_VPN_P_01 10.109.3.247")
-    print("IBM_HOR_DC_FW_OOB_01 10.109.3.50,        IBM_HOR_DC_FW_OOB_02 10.109.3.51")
-    print("IBM_HOR_DC_FW_VPN_P_02 10.109.3.224,     IBM_HOR_DC_FW_TRS-01 10.109.3.248,") 
-    print("IBM_HOR_DC_FW_EXTRA-NET-01 10.109.3.251, IBM_HOR_DC_FW_VPN_NP 10.109.3.225") 
+    print("IBM_HOR_DC_FW_INT_,       IBM_HOR_DC_FW_INT_02 ") 
+    print("IBM_HOR_DC_FW_FL_01 ,        IBM_HOR_DC_FW_VPN_P_01 ")
+    print("IBM_HOR_DC_FW_OOB_01 ,        IBM_HOR_DC_FW_OOB_02 ")
+    print("IBM_HOR_DC_FW_VPN_P_02 ,     IBM_HOR_DC_FW_TRS-01 ,") 
+    print("IBM_HOR_DC_FW_EXTRA-NET-01 , IBM_HOR_DC_FW_VPN_NP ") 
 
     ip_dispositivo = input("Digite o IP do dispositivo Cisco: ")
     user = input("Digite o usuário: ")
